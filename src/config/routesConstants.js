@@ -1,0 +1,13 @@
+export const ASSIGNED_VIEW_ROUTE = `/play-work`;
+export const WORKPLAN_VIEW_ROUTE = `/to-assign-work`;
+export const NEW_GIF_VIEW_ROUTE = `/create-gif`;
+export const RECOVERY_VIEW_ROUTE = `/recovery-password`;
+export const GAMES_VIEW_ROUTE = `/games`;
+export const SUCCESS_VIEW_ROUTE = `/success`;
+export const MY_GAMES_VIEW_ROUTE = `/my-games`;
+export const NEW_GAME_VIEW_ROUTE = `/create-game`;
+export const USER_VIEW_ROUTE = `/new-user`;
+export const LOGIN_VIEW_ROUTE = `/login`;
+export const ABOUT_US_VIEW_ROUTE = `/about-us`;
+export const PLAY_GAME_VIEW_ROUTE = `/play-game`;
+export const INDEX_ROUTE = `/`;

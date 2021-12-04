@@ -1,0 +1,69 @@
+{
+  "lanes": [
+    {
+      "id": "TABLERO",
+      "title": "Tablero",
+      "style": {
+        "width": 280,
+        "backgroundColor": "#ffe29f"
+      },
+      "titleStyle": {
+        "fontFamily": "sans-serif",
+        "color": "#fff",
+        "fontSize": 18,
+        "margin-left": "10px"
+      },
+      "cards": [
+        {
+          "id": "Milk",
+          "src": "https://5.imimg.com/data5/DZ/IZ/TI/SELLER-58976645/toilet-rolls-500x500.jpg"
+        },
+        {
+          "id": "Plan2",
+          "src": "https://5.imimg.com/data5/DZ/IZ/TI/SELLER-58976645/toilet-rolls-500x500.jpg"
+        },
+        {
+          "id": "Plan3",
+          "src": "https://5.imimg.com/data5/DZ/IZ/TI/SELLER-58976645/toilet-rolls-500x500.jpg"
+        },
+        {
+          "id": "Plan4",
+          "src": "https://5.imimg.com/data5/DZ/IZ/TI/SELLER-58976645/toilet-rolls-500x500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ACUATICO",
+      "title": "Animales Acuaticos",
+      "style": {
+        "width": 280
+      },
+      "titleStyle": {
+        "fontFamily": "sans-serif",
+        "color": "#50a7c2",
+        "fontSize": 18,
+        "margin-left": "10px"
+      },
+      "cards": [
+        {
+          "id": "Wip1",
+          "src": "https://5.imimg.com/data5/DZ/IZ/TI/SELLER-58976645/toilet-rolls-500x500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "TERRESTRE",
+      "title": "Animales Terrestres",
+      "style": {
+        "width": 280
+      },
+      "titleStyle": {
+        "fontFamily": "sans-serif",
+        "color": "#ff719a",
+        "fontSize": 18,
+        "margin-left": "10px"
+      },
+      "cards": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "platform-unrc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@lourenci/react-kanban": "^0.16.0",
+    "@material-ui/core": "^4.8.0",
+    "@material-ui/icons": "^4.5.1",
+    "@sendgrid/mail": "^7.4.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "array-move": "^2.2.1",
+    "caniuse-lite": "^1.0.30001237",
+    "cors": "^2.8.5",
+    "emailjs-com": "^3.0.2",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "firebase": "^7.8.1",
+    "firebase-tools": "^9.16.0",
+    "lodash-es": "4.17.11",
+    "lodash-move": "1.1.1",
+    "moment": "^2.26.0",
+    "noty": "^3.2.0-beta",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-beautiful-dnd": "8.0.5",
+    "react-dom": "^16.12.0",
+    "react-footer-comp": "^3.0.1",
+    "react-library-paginator": "^2.0.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "react-smooth-dnd": "^0.11.1",
+    "react-sortable-hoc": "^1.11.0",
+    "react-spinners": "^0.8.0",
+    "react-spring": "8.0.19",
+    "react-trello": "^2.2.8",
+    "react-use-gesture": "5.0.0",
+    "react-virtualized": "^9.22.3",
+    "redux": "^4.0.5",
+    "redux-form": "^8.2.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}
