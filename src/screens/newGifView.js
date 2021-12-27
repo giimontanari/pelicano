@@ -61,21 +61,18 @@ class newGifView extends Component {
   }
 
   handleChange = (prop, event) => {
-    debugger;
     this.setState({
       [prop]: event.target.value,
     });
   };
 
   handleChangeImageName = (prop, event) => {
-    debugger;
     this.setState({
       [prop]: event.target.files[0].name,
     });
   };
 
   handleChangeImageFile = (prop, event) => {
-    debugger;
     this.setState({
       [prop]: event.target.files[0],
     });

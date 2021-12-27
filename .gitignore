@@ -12,7 +12,7 @@ npm-*
 /dist
 /.opt-in
 .firebaserc
-database.rules.josn
+database.rules.json
 firebase.json
 storage.rules
 /.firebase

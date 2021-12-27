@@ -106,8 +106,7 @@ class PlayGameView extends Component {
           }
         });
     }
-    // }
-    if (error.value !== 2) {
+    if (error.value !== 2 || board[0].cards.length !== 0) {
       this.setState({
         open: true,
         result: "ANIMO SIGUE INTENTANDO!",
@@ -120,7 +119,6 @@ class PlayGameView extends Component {
         won: true,
       });
     }
-    debugger;
     if (gameIdSelect) {
       this.onSendScore(
         hits > 0 ? (hits * 100) / sum : 0,
@@ -145,7 +143,6 @@ class PlayGameView extends Component {
         score: score,
       });
     }
-    debugger;
     if (score && id) {
       await this.props.actPutScoreGameWorkplan(
         scoresGame,
